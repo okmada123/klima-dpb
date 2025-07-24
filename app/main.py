@@ -12,6 +12,7 @@ def read_root():
     return f"""
     <html>
         <head>
+            <title>Nefunkčná klimatizácia</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <style>
                 * {{
@@ -203,6 +204,7 @@ def read_root():
                 </div>
                 
                 <div class="buttons-grid">
+                    <a href="#" onclick="sendEmail(1, this)" class="line-button">1</a>
                     <a href="#" onclick="sendEmail(3, this)" class="line-button">3</a>
                     <a href="#" onclick="sendEmail(91, this)" class="line-button">91</a>
                     <a href="#" onclick="sendEmail(93, this)" class="line-button">93</a>
