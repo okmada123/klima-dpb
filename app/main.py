@@ -262,7 +262,7 @@ def read_root():
                     const vehicleValue = document.getElementById('vehicle').value;
                     const timeValue = document.getElementById('time').value;
                     
-                    const emailBody = `Dobrý deň,\\n\\nopäť sa veziem v MHD, v ktorej nefunguje klimatizácia. Je to veľmi nepríjemné. Ocenil by som, keby sa mi to stávalo čo najmenej.\\n\\nLinka: ${{numberValue}}\\nČíslo vozidla: ${{vehicleValue}}\\nČas: ${{timeValue}}\\n\\nVeľmi pekne Vám ďakujem za promptné vyriešenie a prajem pekný deň.`;
+                    const emailBody = `Dobrý deň,\\n\\nopäť sa veziem v MHD, v ktorej nefunguje klimatizácia. Je to veľmi nepríjemné. Bolo by skvelé, keby sa mi to stávalo čo najmenej.\\n\\nLinka: ${{numberValue}}\\nČíslo vozidla: ${{vehicleValue}}\\nČas: ${{timeValue}}\\n\\nVeľmi pekne Vám ďakujem za promptné vyriešenie a prajem pekný deň.`;
                     const mailtoLink = `mailto:klima@dpb.sk?subject=Nefunkčná klimatizácia&body=${{encodeURIComponent(emailBody)}}`;
                     window.location.href = mailtoLink;
                 }}
